@@ -54,7 +54,7 @@ describe('UserForm inputs', () => {
 
       it('can check terms of service', () => {
         cy.get('input[name="termsOfService"]')
-        .should('be.empty')
+        .should('be.not.checked')
     })
 })
 
